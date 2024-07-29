@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="calculateur.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="5"/>
+        <CursorPos X="5" Y="5"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UMainForm"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="4" Y="2"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uinteretsimple.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FInteretSimple"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UInteretSimple"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="54"/>
+        <CursorPos X="5" Y="54"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uinteretcompose.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FInteretCompose"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UInteretCompose"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="96"/>
+        <CursorPos X="58" Y="112"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uamortissement.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FAmortissement"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UAmortissement"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="148"/>
+        <CursorPos X="28" Y="124"/>
+        <FoldState Value=" T3iN0G1 PVJ0b"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uutiles.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uutiles"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="152"/>
+        <CursorPos X="42" Y="161"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="faideinteretsimple.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FAideIntSimple"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FAideInteretSimple"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="36" Y="17"/>
+        <UsageCount Value="26"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="faideinteretcompose.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FAideIntComp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FAideInteretCompose"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="27" Y="35"/>
+        <UsageCount Value="26"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="faideamortissement.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FAideAmort"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FAideAmortissement"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="18"/>
+        <CursorPos X="27" Y="39"/>
+        <UsageCount Value="26"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\EAHR\AppData\Local\lazarus\onlinepackagemanager\packages\ABProjectFiles\projectfiles.pas"/>
+        <ComponentName Value="ABProjectFiles"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ProjectFiles"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="414"/>
+        <CursorPos X="42" Y="439"/>
+        <UsageCount Value="4"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\maskedit.pp"/>
+        <UnitName Value="MaskEdit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2183"/>
+        <CursorPos X="33" Y="2471"/>
+        <UsageCount Value="5"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\checklst.pas"/>
+        <UnitName Value="CheckLst"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="329"/>
+        <CursorPos X="47" Y="337"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="43" Column="8" TopLine="40"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uamortissement.pas"/>
+        <Caret Line="264" Column="26" TopLine="208"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uutiles.pas"/>
+        <Caret Line="16" Column="20" TopLine="4"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uutiles.pas"/>
+        <Caret Line="137" TopLine="117"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uutiles.pas"/>
+        <Caret Line="17" Column="58"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uutiles.pas"/>
+        <Caret Line="142" Column="10" TopLine="131"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uutiles.pas"/>
+        <Caret Line="132" Column="37" TopLine="112"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uutiles.pas"/>
+        <Caret Line="138" Column="11" TopLine="122"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uutiles.pas"/>
+        <Caret Line="134" Column="36" TopLine="115"/>
+      </Position9>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+    <HistoryLists Count="1">
+      <List0 Name="LaunchingApplication" Type="File" Count="1">
+        <Item1 Value="C:\Windows\system32\cmd.exe /C ${TargetCmdLine}"/>
+      </List0>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>

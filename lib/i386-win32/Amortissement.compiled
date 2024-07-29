@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lamw_manager\LAMW\LAMW4Windows\fpc\3.2.0\bin\i386-win32\fpc.exe" Date="1492014193"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiD:\Formation à distance\Rija\UTB\M1\Lazarus Delphi\TD + corrigés\Evaluation_finale\lib\i386-win32&quot; -FuC:\lamw_manager\LAMW\LAMW4Windows\lazarus_trunk\lcl\units\i386-win32\win32 -FuC:\lamw_manager\LAMW\LAMW4Windows\lazarus_trunk\lcl\units\i386-win32 -FuC:\lamw_manager\LAMW\LAMW4Windows\lazarus_trunk\components\lazutils\lib\i386-win32 -FuC:\lamw_manager\LAMW\LAMW4Windows\lazarus_trunk\packager\units\i386-win32 &quot;-FuD:\Formation à distance\Rija\UTB\M1\Lazarus Delphi\TD + corrigés\Evaluation_finale\&quot; &quot;-FUD:\Formation à distance\Rija\UTB\M1\Lazarus Delphi\TD + corrigés\Evaluation_finale\lib\i386-win32\&quot; &quot;-FED:\Formation à distance\Rija\UTB\M1\Lazarus Delphi\TD + corrigés\Evaluation_finale\&quot; &quot;-oD:\Formation à distance\Rija\UTB\M1\Lazarus Delphi\TD + corrigés\Evaluation_finale\Amortissement.exe&quot; -dLCL -dLCLwin32 Amortissement.lpr"/>
+</CONFIG>

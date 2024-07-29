@@ -1,0 +1,141 @@
+object FInteretCompose: TFInteretCompose
+  Left = 487
+  Height = 400
+  Top = 498
+  Width = 700
+  BorderStyle = bsSingle
+  Caption = 'Calculateur Intérêt composé'
+  ClientHeight = 400
+  ClientWidth = 700
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object gpbDonnees: TGroupBox
+    Left = 16
+    Height = 160
+    Top = 14
+    Width = 280
+    Caption = 'Données'
+    ClientHeight = 135
+    ClientWidth = 276
+    Font.Style = [fsBold, fsUnderline]
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    object edtCapitalInteretComp: TEdit
+      Left = 136
+      Height = 28
+      Top = 0
+      Width = 130
+      Alignment = taCenter
+      ParentFont = False
+      TabOrder = 0
+    end
+    object edtAnneeInteretComp: TEdit
+      Left = 136
+      Height = 28
+      Top = 96
+      Width = 50
+      Alignment = taCenter
+      ParentFont = False
+      TabOrder = 2
+    end
+    object edtTauxInteretComp: TEdit
+      Left = 136
+      Height = 28
+      Top = 48
+      Width = 50
+      Alignment = taCenter
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Label1: TLabel
+      Left = 8
+      Height = 20
+      Top = 8
+      Width = 47
+      Caption = 'Capital'
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 20
+      Top = 56
+      Width = 114
+      Caption = 'Taux d''intérêt (%)'
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 20
+      Top = 104
+      Width = 104
+      Caption = 'Période (année)'
+      ParentFont = False
+    end
+  end
+  object MResultatInteretComp: TMemo
+    Left = 382
+    Height = 346
+    Top = 40
+    Width = 308
+    BorderSpacing.Around = 30
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 382
+    Height = 20
+    Top = 21
+    Width = 398
+    Anchors = []
+    AutoSize = False
+    Caption = 'Affichage des intérêts composés calculés'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 312
+    Height = 49
+    Top = 64
+    Width = 56
+    Caption = '>>>'
+    Color = clYellow
+    Font.Color = clRed
+    Font.Height = 30
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object gpbResultatIntComp: TGroupBox
+    Left = 16
+    Height = 80
+    Top = 306
+    Width = 280
+    Caption = 'Total des intérêts composés'
+    ClientHeight = 52
+    ClientWidth = 276
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = 16750899
+    Font.Height = 23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsUnderline]
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 3
+    object lblTotalInteretComp: TLabel
+      Left = 8
+      Height = 1
+      Top = 16
+      Width = 1
+      Font.Color = clMenuHighlight
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+end

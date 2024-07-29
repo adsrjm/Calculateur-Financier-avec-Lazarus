@@ -1,0 +1,64 @@
+object FMain: TFMain
+  Left = 1438
+  Height = 215
+  Top = 173
+  Width = 430
+  BorderStyle = bsSingle
+  Caption = 'Calculateur'
+  ClientHeight = 215
+  ClientWidth = 430
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object lblOperationEnCours: TLabel
+    Left = 0
+    Height = 215
+    Top = 0
+    Width = 430
+    Align = alClient
+    Alignment = taCenter
+    Caption = 'Choisir une opération'
+    Font.Color = clTeal
+    Font.Style = [fsBold]
+    Layout = tlCenter
+    ParentFont = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 296
+    Top = 144
+    object TMOperations: TMenuItem
+      Caption = 'Opérations'
+      object TMInteretSimple: TMenuItem
+        Caption = 'Intérêt simple'
+        OnClick = TMInteretSimpleClick
+      end
+      object TMInteretCompose: TMenuItem
+        Caption = 'Intérêt composé'
+        OnClick = TMInteretComposeClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object TMAmortissement: TMenuItem
+        Caption = 'Amortissement'
+        OnClick = TMAmortissementClick
+      end
+    end
+    object TMAide: TMenuItem
+      Caption = 'Mémo'
+      object TMFormuleIS: TMenuItem
+        Caption = 'Formule Intérêt simple'
+        OnClick = TMFormuleISClick
+      end
+      object TMFormuleIC: TMenuItem
+        Caption = 'Formule Intérêt composé'
+        OnClick = TMFormuleICClick
+      end
+      object TMFormuleAmortissement: TMenuItem
+        Caption = 'Formule Amortissement'
+        OnClick = TMFormuleAmortissementClick
+      end
+    end
+  end
+end

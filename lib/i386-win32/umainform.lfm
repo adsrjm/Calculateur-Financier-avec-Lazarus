@@ -1,0 +1,41 @@
+object Form1: TForm1
+  Left = 1316
+  Height = 300
+  Top = 286
+  Width = 400
+  Caption = 'Form1'
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  LCLVersion = '2.0.12.0'
+  object MainMenu1: TMainMenu
+    Left = 328
+    Top = 16
+    object TMOperations: TMenuItem
+      Caption = 'Opérations'
+      object TMInteretSimple: TMenuItem
+        Caption = 'Intérêt simple'
+      end
+      object TMInteretCompose: TMenuItem
+        Caption = 'Intérêt composé'
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object TMAmortissement: TMenuItem
+        Caption = 'Amortissement'
+      end
+    end
+    object TMAide: TMenuItem
+      Caption = 'Aide'
+      object TMFormuleIS: TMenuItem
+        Caption = 'Formule Intérêt simple'
+      end
+      object TMFormuleIC: TMenuItem
+        Caption = 'Formule Intérêt composé'
+      end
+      object TMFormuleAmortissement: TMenuItem
+        Caption = 'Formule Amortissement'
+      end
+    end
+  end
+end

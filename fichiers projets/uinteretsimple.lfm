@@ -1,0 +1,107 @@
+object FInteretSimple: TFInteretSimple
+  Left = 1222
+  Height = 400
+  Top = 552
+  Width = 620
+  BorderStyle = bsSingle
+  Caption = 'Calculateur Intérêt simple'
+  ClientHeight = 400
+  ClientWidth = 620
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 20
+    Top = 24
+    Width = 51
+    Caption = 'Capital '
+  end
+  object edtCapitalInteretSimple: TEdit
+    Left = 144
+    Height = 28
+    Top = 16
+    Width = 130
+    Alignment = taCenter
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 20
+    Top = 78
+    Width = 118
+    Caption = 'Taux d''intérêt (%) '
+  end
+  object edtTauxInteretSimple: TEdit
+    Left = 144
+    Height = 28
+    Top = 72
+    Width = 50
+    Alignment = taCenter
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 20
+    Top = 134
+    Width = 104
+    Caption = 'Période (année)'
+  end
+  object edtAnneeInteretSimple: TEdit
+    Left = 144
+    Height = 28
+    Top = 126
+    Width = 50
+    Alignment = taCenter
+    TabOrder = 2
+  end
+  object btnCalculInteretsimple: TButton
+    Left = 56
+    Height = 56
+    Top = 200
+    Width = 208
+    Align = alCustom
+    Caption = 'Calculer les intérêts simples'
+    Color = clBtnShadow
+    TabOrder = 3
+    OnClick = btnCalculInteretsimpleClick
+  end
+  object MResultatInteretSimple: TMemo
+    Left = 319
+    Height = 354
+    Top = 30
+    Width = 282
+    BorderSpacing.Around = 30
+    ScrollBars = ssAutoVertical
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 26
+    Height = 20
+    Top = 320
+    Width = 272
+    Caption = 'Total des intérêts simples de la période'
+    Font.Color = clMenuHighlight
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+  end
+  object lblTotalInteretSimple: TLabel
+    Left = 34
+    Height = 1
+    Top = 352
+    Width = 1
+    Font.Color = clMenuHighlight
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 319
+    Height = 20
+    Top = 8
+    Width = 398
+    AutoSize = False
+    Caption = 'Affichage des intérêts simples calculés'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end
